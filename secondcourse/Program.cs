@@ -2,13 +2,14 @@
 
 // ShoppingList.Start();
 // Travellog.Start();
+CandyMachine.MainMenu();
 
 // for Highscore program.
-Highscore hs = new(5);
+// Highscore hs = new(5);
 
 // if you want to import from csv file. but only if you have run the program once.
 // hs.ReadFromCSV();
-
+/*
 TimeSpan timeSpan = TimeSpan.FromSeconds(13);
 hs.Add("Luke Skywalker", 132, timeSpan);
 timeSpan = TimeSpan.FromSeconds(45);
@@ -30,3 +31,4 @@ Console.WriteLine();
 timeSpan = TimeSpan.FromSeconds(66);
 hs.Add("I Replace", 666, timeSpan);
 hs.Print();
+*/

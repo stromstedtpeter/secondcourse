@@ -2,7 +2,8 @@
 
 // ShoppingList.Start();
 // Travellog.Start();
-CandyMachine.MainMenu();
+// CandyMachine.MainMenu();
+Quiz.MainMenu();
 
 // for Highscore program.
 // Highscore hs = new(5);

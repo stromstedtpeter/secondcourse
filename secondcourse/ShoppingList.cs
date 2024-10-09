@@ -23,30 +23,27 @@
                     continue;
                 }
 
+                Console.Clear();
+
                 switch (choice)
                 {
-                    case 1:
-                        Console.Clear();
+                    case 1:       
                         showList(stringList);
                         returnBack();
                         break;
                     case 2:
-                        Console.Clear();
                         addArticle(stringList);
                         returnBack();
                         break;
                     case 3:
-                        Console.Clear();
                         removeAnArticle(stringList);
                         returnBack();
                         break;
                     case 4:
-                        Console.Clear();
                         searchForArticle(stringList);
                         returnBack();
                         break;
                     case 0:
-                        Console.Clear();
                         Console.WriteLine("Hej då");
                         Environment.Exit(0);
                         break;
